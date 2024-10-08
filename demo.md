@@ -16,11 +16,6 @@ Let's start by running `azd init` in this repository. As you can see, the Postgr
 the application can run, users will need to update the bicep files to create PostgreSQL, and they also need to figure 
 out the endpoint of the backend (api) to call from the frontend (web).
 
-In summary the problems are:
-
-   1. PostgreSQL is not detected.
-   2. Azure Database for PostgreSQL is not provisioned. 
-
 ## 2. Show azd Enhancement for Java experience for the same project 
 
 Now, let's move on to the Java enhancements we have made to azd. We will use `azd init` to generate the improved 
