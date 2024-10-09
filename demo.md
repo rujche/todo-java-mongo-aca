@@ -38,12 +38,16 @@ Steps:
    1. VS code -> Java: new project -> Spring boot -> selected dependencies (web app with service bus)
    2. Run `azd init` & `azd up`.
 
-## 4. Recap its advantage via a diagram
-
-Finally, we will recap the advantages in a diagram. These enhancements save time, reduce complexity, and ensure a more 
-efficient workflow.
+## 4. Recap its advantage
 
 To wrap up, the enhancements to the `azd` tool significantly streamline the process of analyzing, provisioning, and 
-deploying Java applications to Azure. These improvements save time, reduce complexity, and ensure a more efficient 
-workflow. Thank you for watching, and I look forward to seeing how you leverage these enhancements in your projects.
+deploying Java applications to Azure. 
 
+| Feature                                                                                                                                                                      | Included in the enhanced `azd` | 
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------| 
+| Make sure required Azure Service (like Azure Database for PostgreSQL) can be **detected** by analyzing project files (like pom.xml, application.yml, Java codes).            | Yes                            | 
+| Make sure required Azure service be **provisioned**.                                                                                                                         | Yes                            | 
+| Make sure required Azure service (like Azure Database for PostgreSQL) can be **used** (connected) in customer's app deployed in compute service (like Azure Container Apps). | Yes                            | 
+
+These improvements save time, reduce complexity, and ensure a more efficient
+workflow. Thank you for watching, and I look forward to seeing how you leverage these enhancements in your projects.
