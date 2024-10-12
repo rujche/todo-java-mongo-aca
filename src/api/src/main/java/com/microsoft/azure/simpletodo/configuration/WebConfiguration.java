@@ -62,7 +62,7 @@ public class WebConfiguration implements WebMvcConfigurer {
 
                 registry
                     .addMapping("/**")
-                    .allowedOrigins(origins.toArray(new String[0]))
+                    .allowedOrigins("*")
                     .allowedMethods("*")
                     .allowedHeaders("*");
             }
